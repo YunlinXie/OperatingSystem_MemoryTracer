@@ -15,3 +15,5 @@ The allocation and deallocation for the char ** array and your linked list shoul
 The parent process should redirect the stdout to a log file named "memtrace.out". You can use dup2 for the purpose of redirecting stdout (fd1) to the memtrace.out file. Your dup2() call will replace the file descriptor STDOUT_FILENO with the opened file for memtrace.out.
 
 Ensure there are no memory leaks. Your code should work on an input file with up to a few hundred lines.
+
+NOTE: copy right reserved, please do not use my code for your course assignments.
